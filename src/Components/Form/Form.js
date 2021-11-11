@@ -8,16 +8,25 @@ function Form() {
       setSalary(event.target.value)
   }
 
-  function calcTax(income) {
-
-  }
-
     useEffect( () => {
-        if (salary === '') {
-            document.querySelector('.tax-display').innerText = 'Please enter your annual salary';
-        } else {
-            document.querySelector('.tax-display').innerText = 'Income after tax: ' + salary;
+        function calcTax(salary) {
+            const taxfree = 12570;
+            const income = Math.round(salary);
+            if (income > 150000) {
+                return  'Income after tax: £' + (income - (((income - taxfree)/100)*45)).toFixed(2);
+            }
+            else if (income >= 50271) {
+                return  'Income after tax: £' + (income - (((income - taxfree)/100)*40)).toFixed(2);
+            }
+            else if (income >= 12571) {
+                return  'Income after tax: £' + (income - (((income - taxfree)/100)*20)).toFixed(2);
+            }
+            else if (income <= taxfree && income !== 0) {
+                return 'No tax due!';
+            }
+            return 'Please enter your annual salary';
         }
+            document.querySelector('.tax-display').innerText = calcTax(salary);
     }, [salary]);
 
   return (
