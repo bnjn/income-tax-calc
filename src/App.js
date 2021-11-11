@@ -5,7 +5,7 @@ import TaxDisplay from "./Components/TaxDisplay/TaxDisplay";
 
 function App() {
   return (
-    <div className="vh-100 vw-100 d-flex justify-content-center align-items-center">
+    <div className="app-view vh-100 vw-100 d-flex justify-content-center align-items-center">
         <div className="app-container w-75 d-flex flex-column justify-content-center align-items-center">
           <Header />
           <Form />
