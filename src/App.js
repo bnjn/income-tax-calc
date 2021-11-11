@@ -1,21 +1,16 @@
 import './App.css';
+import Header from "./Components/Header/Header";
+import Form from "./Components/Form/Form";
+import TaxDisplay from "./Components/TaxDisplay/TaxDisplay";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="vh-100 vw-100 d-flex justify-content-center align-items-center">
+        <div className="app-container w-75 d-flex flex-column justify-content-center align-items-center">
+          <Header />
+          <Form />
+          <TaxDisplay />
+        </div>
     </div>
   );
 }
