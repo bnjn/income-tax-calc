@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/income-tax-calc/static/css/main.11e0677d.chunk.css",
+    "main.css": "/income-tax-calc/static/css/main.992e22e5.chunk.css",
     "main.js": "/income-tax-calc/static/js/main.289c1917.chunk.js",
     "main.js.map": "/income-tax-calc/static/js/main.289c1917.chunk.js.map",
     "runtime-main.js": "/income-tax-calc/static/js/runtime-main.8f00951a.js",
@@ -10,7 +10,7 @@
     "static/js/2.8f0b798d.chunk.js.map": "/income-tax-calc/static/js/2.8f0b798d.chunk.js.map",
     "index.html": "/income-tax-calc/index.html",
     "static/css/2.383c0125.chunk.css.map": "/income-tax-calc/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.11e0677d.chunk.css.map": "/income-tax-calc/static/css/main.11e0677d.chunk.css.map",
+    "static/css/main.992e22e5.chunk.css.map": "/income-tax-calc/static/css/main.992e22e5.chunk.css.map",
     "static/js/2.8f0b798d.chunk.js.LICENSE.txt": "/income-tax-calc/static/js/2.8f0b798d.chunk.js.LICENSE.txt",
     "static/media/index.css": "/income-tax-calc/static/media/EnvyCodeR.ad0da5d6.woff"
   },
@@ -18,7 +18,7 @@
     "static/js/runtime-main.8f00951a.js",
     "static/css/2.383c0125.chunk.css",
     "static/js/2.8f0b798d.chunk.js",
-    "static/css/main.11e0677d.chunk.css",
+    "static/css/main.992e22e5.chunk.css",
     "static/js/main.289c1917.chunk.js"
   ]
 }
