@@ -2,7 +2,7 @@
   "name": "income-tax-calc",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://bnjn.github.io/income-tax-calc",
+  "homepage": "https://bnjn.github.io/income-tax-calc",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
